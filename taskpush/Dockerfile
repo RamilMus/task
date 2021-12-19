@@ -16,5 +16,5 @@ RUN pyinstaller /app/application.py -F  --name "Myapp" --clean
 
 FROM alpine
 COPY --from=base /app/dist/ /
-EXPOSE 5000 80 443
+EXPOSE 8000 5000 80 443
 ENTRYPOINT ["./Myapp"]
