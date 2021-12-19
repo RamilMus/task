@@ -45,9 +45,7 @@ sudo chmod 666 /var/run/docker.sock
 domain may be set up in 53 route
 
 # Test for DevOps
-Test task for DevOps engineer
-Hello and welcome to the Soramitsu DevOps take home challenge! We value your time and don’t expect you to spend anymore than 2-3 hours on this task. The challenge is a chance to demonstrate basic competency in cloud provisioning and automation using docker, terraform and ansible. This isn’t just simply a pass/fail on meeting the requirements though - there will be some expectation of following best practices with whatever method you use and making it easy for others to iterate on your work. It’s possible to spend much longer than 3h on this task so think carefully about how you want to solve the problem.
-If you pass this stage further technical interview questions may expand on this scenario.
+
 The Scenario
 We have several developers teams where each member has a different OS, compiler/interpreter version, dependencies installed on the local computer. To uniform all this we use Docker containers.
 Your job is to automate the provisioning of instances with the application. 
@@ -64,5 +62,4 @@ Use ansible to accomplish this task (use best practices).
 Usage of a self-signed certificate is fine
 If you don’t have a domain you can add records to /etc/hosts for testing
 After you finish bootstrapping, you should be able to open https://app.yourdomain.com in your browser and see the message  "Hello world! Time is: TIME_IN_MOSCOW"
-Submission
-Please provide a zip file containing whatever scripts/files you used to meet the deliverables and a README.md with any instructions or additional information.
+
