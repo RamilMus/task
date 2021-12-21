@@ -22,7 +22,7 @@ date_time = now.strftime("%H:%M:%S")
 @application.route('/')
 def time_feed():
     def generate():
-        yield (datetime.now(MOS).strftime("Hello world! Time is: %H:%M:%S"))
+        yield (datetime.now(MOS).strftime("Привет Альберт! Time is: %H:%M:%S"))
     return Response(generate())
 
 if __name__=="__main__":
